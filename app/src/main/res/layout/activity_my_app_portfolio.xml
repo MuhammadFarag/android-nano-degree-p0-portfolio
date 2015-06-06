@@ -8,7 +8,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Spotify Streamer"
+        android:text="@string/app_spotify_name"
         android:id="@+id/button"
         android:layout_marginTop="26dp"
         android:layout_below="@+id/textView"
@@ -22,7 +22,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scores App"
+        android:text="@string/app_scores_name"
         android:id="@+id/button2"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
@@ -36,7 +36,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Library App"
+        android:text="@string/app_library_name"
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
         android:layout_alignLeft="@+id/button"
@@ -50,7 +50,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Build It Bigger"
+        android:text="@string/app_bigger_name"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button"
@@ -64,7 +64,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XYZ Reader"
+        android:text="@string/app_xyz_reader_name"
         android:id="@+id/button5"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
@@ -78,7 +78,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Capstone: My Own App"
+        android:text="@string/app_capstone_name"
         android:id="@+id/button6"
         android:background="#ffff000b"
         android:layout_below="@+id/button5"
@@ -93,7 +93,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="My Nanodegree Apps!"
+        android:text="@string/title_portfolio"
         android:id="@+id/textView"
         android:layout_marginTop="31dp"
         android:layout_alignParentTop="true"
