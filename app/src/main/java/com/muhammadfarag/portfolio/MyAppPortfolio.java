@@ -6,14 +6,17 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 
 public class MyAppPortfolio extends ActionBarActivity {
 
-    public void launchSpotifyStreamerApp(View view) {
+    public void launchApp(View view) {
+        Button button = (Button) view;
+        String buttonText = button.getText().toString();
         Context context = getApplicationContext();
-        CharSequence text = "This button shall open My Spotify Streamer App";
+        CharSequence text = "This button shall open My " + buttonText;
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);

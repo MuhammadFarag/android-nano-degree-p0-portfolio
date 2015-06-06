@@ -17,7 +17,7 @@
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
         android:background="#ffff7900"
-        android:onClick="launchSpotifyStreamerApp"/>
+        android:onClick="launchApp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -30,7 +30,8 @@
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
         android:background="#ffff7900"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:onClick="launchApp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -43,7 +44,8 @@
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
         android:background="#ffff7900"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:onClick="launchApp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -56,7 +58,8 @@
         android:layout_alignRight="@+id/button"
         android:layout_alignEnd="@+id/button"
         android:background="#ffff7900"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:onClick="launchApp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -69,7 +72,8 @@
         android:layout_alignEnd="@+id/button"
         android:background="#ffff7900"
         android:layout_below="@+id/button4"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:onClick="launchApp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -82,7 +86,8 @@
         android:layout_alignStart="@+id/button5"
         android:layout_alignRight="@+id/button5"
         android:layout_alignEnd="@+id/button5"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="30dp"
+        android:onClick="launchApp"/>
 
     <TextView
         android:layout_width="wrap_content"
