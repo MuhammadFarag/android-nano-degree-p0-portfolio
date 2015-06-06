@@ -16,7 +16,8 @@
         android:layout_alignStart="@+id/textView"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView"
-        android:background="#ffff7900" />
+        android:background="#ffff7900"
+        android:onClick="launchSpotifyStreamerApp"/>
 
     <Button
         android:layout_width="wrap_content"
