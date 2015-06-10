@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,6 +22,7 @@ public class MyAppPortfolio extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
+        toast.getView().setBackgroundColor(getResources().getColor(R.color.colorAccent));
         toast.show();
     }
 
