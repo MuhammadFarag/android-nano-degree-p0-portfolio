@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 
-public class MyAppPortfolio extends AppCompatActivity {
+public class MyAppPortfolioActivity extends AppCompatActivity {
 
     public void launchApp(View view) {
         Button button = (Button) view;
